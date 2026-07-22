@@ -1,0 +1,65 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String?  @unique
+  phone     String?  @unique
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  assessments Assessment[]
+}
+
+model Assessment {
+  id          String   @id @default(uuid())
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id])
+
+  // Status and Progress tracking
+  isCompleted Boolean  @default(false)
+  currentStep Int      @default(0)
+  physicalRtBaseMs Int @default(250)
+  routeState  Json?
+  clientIp    String?
+  completedAt DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Structured Core Results (Flattened for Analytics)
+  // Big Five Scores (T-Scores)
+  bf_O        Int?
+  bf_C        Int?
+  bf_E        Int?
+  bf_A        Int?
+  bf_N        Int?
+
+  // MBTI/Jungian
+  jungian_type String? // e.g., "INTJ"
+  jungian_primary String? // e.g., "Ni"
+
+  // Enneagram
+  enneagram_type Int?
+  enneagram_wing Int?
+  enneagram_variant String? // SP, SX, SO
+
+  // DiSC
+  disc_quadrant String?
+  disc_vector_x Float?
+  disc_vector_y Float?
+
+  // Raw and Full Report Data
+  rawState    Json
+  report      Json?
+
+  @@index([userId])
+  @@index([isCompleted])
+  @@index([jungian_type])
+  @@index([bf_E]) // Extroversion is often a key filter
+}
