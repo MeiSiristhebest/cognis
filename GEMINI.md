@@ -1,5 +1,11 @@
 # Cognis Project Chronicle
 
+## [2026-07-23] Feature: Project Renaming to Cognis & GitHub Repository Release
+- **Decision**: Updated project name from `my-project` to `cognis` in `package.json` to match the official system identity.
+- **Reason**: To align repository configuration with the project's brand name "Cognis".
+- **Decision**: Authored a comprehensive `README.md` documenting Cognis's 2PL-IRT psychometric engine, 5 assessment modules, technical architecture, and installation guides. Initialized Git local repository and published the main branch to GitHub remote (`https://github.com/MeiSiristhebest/cognis`).
+- **Reason**: To fulfill user request for GitHub repository submission and professional open-source documentation.
+
 ## [2026-06-14] Feature: Jungian Input Hardening & DiSC Relocation
 - **Decision**: Replaced direct resource allocation mappings to Jungian (MBTI) functions with 6 scenario-based cognitive self-efficacy questions. Repurposed resource allocation categories (`rd`, `mkt`, `hr`, `ops`) to feed into DiSC vectors (D/i/S/C) as secondary evidence of task/people orientation (20% weight).
 - **Reason**: To eliminate the weak psychometric correlation between corporate budget allocation and Jungian cognitive style, introducing a direct self-efficacy measure instead while leveraging the budget allocations to reinforce the task-vs-people DiSC vectors.
