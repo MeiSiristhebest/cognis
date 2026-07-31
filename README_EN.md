@@ -15,9 +15,7 @@
 ---
 
 <p align="center">
-    <img src="./public/icon.svg" alt="Cognis Logo" width="96" height="96" />
-    <b>Cognis</b> is a high-precision cognitive and workplace behavioral assessment system built on modern frontend technologies and rigorous psychometric theory. It combines <b>2PL Item Response Theory (2PL-IRT)</b>, <b>MAP Maximum-A-Posteriori estimation</b>, and a <b>Bayesian Defense Mechanism Matrix</b> to deliver a multi-modal psychological and behavioral profile spanning five intertwined dimensions.
-    <a href="#project-structure">Project Structure</a>
+    <strong>High-Precision Cognitive & Workplace Behavior Assessment System Powered by 2PL-IRT Item Response Theory</strong>
 </p>
 
 ## 🌟 Core Highlights

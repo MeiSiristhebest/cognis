@@ -15,9 +15,7 @@
 ---
 
 <p align="center">
-    <img src="./public/icon.svg" alt="Cognis Logo" width="96" height="96" />
-    <b>Cognis</b> 是一个基于现代化前端技术与严格心理测量学（Psychometrics）理论打造的高精度认知与职场行为评估系统。系统结合 <b>2PL 项目反应理论 (2PL-IRT)</b>、<b>MAP 最大后验估计</b> 与 <b>贝叶斯防御机制矩阵</b>，提供五大维度交织的多模态心理与行为画像。
-    <a href="#项目结构">项目结构</a>
+    <strong>基于 2PL-IRT 项目反应理论的高精度认知与职场行为评估系统</strong>
 </p>
 
 ## 🌟 核心亮点
