@@ -1,28 +1,24 @@
 # Cognis — High-Precision Cognitive & Workplace Behavioral Assessment System
 
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
-[![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?style=flat-square&logo=prisma)](https://www.prisma.io/)
-
 <p align="center">
-  <img src="./public/icon.svg" alt="Cognis Logo" width="96" height="96" />
+  [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+  [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+  [![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
+  [![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?style=flat-square&logo=prisma)](https://www.prisma.io/)
 </p>
 
 <p align="center">
-  <b>Cognis</b> is a high-precision cognitive and workplace behavioral assessment system built on modern frontend technologies and rigorous psychometric theory. It combines <b>2PL Item Response Theory (2PL-IRT)</b>, <b>MAP Maximum-A-Posteriori estimation</b>, and a <b>Bayesian Defense Mechanism Matrix</b> to deliver a multi-modal psychological and behavioral profile spanning five intertwined dimensions.
-</p>
-
-<p align="center">
-  <a href="#core-assessment-modules">Core Modules</a> •
-  <a href="#psychometrics--algorithmic-architecture">Algorithmic Architecture</a> •
-  <a href="#technology-stack">Tech Stack</a> •
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#project-structure">Project Structure</a>
+  <a href="README.md">🇨🇳 中文</a> &nbsp;|&nbsp; <a href="README_EN.md">🇺🇸 English</a>
 </p>
 
 ---
+
+<p align="center">
+    <img src="./public/icon.svg" alt="Cognis Logo" width="96" height="96" />
+    <b>Cognis</b> is a high-precision cognitive and workplace behavioral assessment system built on modern frontend technologies and rigorous psychometric theory. It combines <b>2PL Item Response Theory (2PL-IRT)</b>, <b>MAP Maximum-A-Posteriori estimation</b>, and a <b>Bayesian Defense Mechanism Matrix</b> to deliver a multi-modal psychological and behavioral profile spanning five intertwined dimensions.
+    <a href="#project-structure">Project Structure</a>
+</p>
 
 ## 🌟 Core Highlights
 

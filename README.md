@@ -1,28 +1,24 @@
 # Cognis - 高精度认知与职场行为评估系统
 
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
-[![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?style=flat-square&logo=prisma)](https://www.prisma.io/)
-
 <p align="center">
-  <img src="./public/icon.svg" alt="Cognis Logo" width="96" height="96" />
+  [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+  [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+  [![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
+  [![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?style=flat-square&logo=prisma)](https://www.prisma.io/)
 </p>
 
 <p align="center">
-  <b>Cognis</b> 是一个基于现代化前端技术与严格心理测量学（Psychometrics）理论打造的高精度认知与职场行为评估系统。系统结合 <b>2PL 项目反应理论 (2PL-IRT)</b>、<b>MAP 最大后验估计</b> 与 <b>贝叶斯防御机制矩阵</b>，提供五大维度交织的多模态心理与行为画像。
-</p>
-
-<p align="center">
-  <a href="#核心评估模块">核心模块</a> •
-  <a href="#心理测量学与算法架构">算法架构</a> •
-  <a href="#技术栈">技术栈</a> •
-  <a href="#快速开始">快速开始</a> •
-  <a href="#项目结构">项目结构</a>
+  <a href="README.md">🇨🇳 中文</a> &nbsp;|&nbsp; <a href="README_EN.md">🇺🇸 English</a>
 </p>
 
 ---
+
+<p align="center">
+    <img src="./public/icon.svg" alt="Cognis Logo" width="96" height="96" />
+    <b>Cognis</b> 是一个基于现代化前端技术与严格心理测量学（Psychometrics）理论打造的高精度认知与职场行为评估系统。系统结合 <b>2PL 项目反应理论 (2PL-IRT)</b>、<b>MAP 最大后验估计</b> 与 <b>贝叶斯防御机制矩阵</b>，提供五大维度交织的多模态心理与行为画像。
+    <a href="#项目结构">项目结构</a>
+</p>
 
 ## 🌟 核心亮点
 
