@@ -183,7 +183,7 @@ git push origin feat/your-feature
 | **Prisma SQL Injection** | All queries use Prisma Client parameterized queries; string-concatenated raw SQL is prohibited (use `$queryRaw` + template parameters when raw SQL is required) |
 | **Canvas Poster XSS** | Poster Canvas 2D drawing APIs accept only primitive types; no HTML/outer-frame strings are injected |
 
-**Vulnerability disclosure**: Report security issues directly to **`cognis-security [at] googlegroups [dot] com`** — do not file a public issue. We commit to a **first response within 24 hours**.
+**Vulnerability disclosure**: Report security issues directly to **`maox_neta@foxmail.com`** — do not file a public issue. We commit to a **first response within 24 hours**.
 
 ---
 
