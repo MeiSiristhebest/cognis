@@ -183,7 +183,7 @@ git push origin feat/your-feature
 | **Prisma SQL 注入** | 所有查询通过 Prisma Client 参数化查询；禁止字符串拼接原始 SQL（需原生 SQL 时用 `$queryRaw` + 模板参数） |
 | **Canvas 海报 XSS** | 海报 Canvas 2D 绘制 API 只接受 primitive 类型输入；不注入 HTML/外框字符串 |
 
-**漏洞上报**：发现安全问题请直接发邮件至 **`cognis-security [at] googlegroups [dot] com`**，不要公开在 Issue 里。承诺 **24 小时内首次响应**。
+**漏洞上报**：发现安全问题请直接发邮件至 **`maox_neta@foxmail.com`**，不要公开在 Issue 里。承诺 **24 小时内首次响应**。
 
 ---
 
